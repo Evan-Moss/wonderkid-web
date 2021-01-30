@@ -3,13 +3,33 @@ layout: default
 title: Notes
 ---
 
-{% for post in site.posts %}
-<article role="article">
-  <h2><a href="{{ site.baseurl }}{{ post.url }}">
-    {{ post.title }}
-  </a></h2>
-  <p>{{ post.summary }}</p>
-    <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-</article>
-{% endfor %}
+{% assign psize = site.posts | size %}
+{% if psize == 0 %}
+<h1>Coming soon...</h1>
+{% endif %}
 
+
+{% for post in site.posts %}
+<a href="{{ site.baseurl }}{{ post.url }}">
+  {% if forloop.index == 1 %}
+  <div class = "card">
+  {% else %}
+  <div class = "card-small">
+  {% endif %}
+    <div class = "card-left">
+      <h2>
+        {{ post.title }}
+      </h2>
+      <!--<time class="date" style="font-weight: Normal;">Evan</time><br>-->
+      <time style = "font-weight: Normal;" class="date" datetime="{{ post.date | date_to_xmlschema }}"><b>{{ post.author }}</b>, {{ post.date | date: "%B %-d %Y" }}</time>
+
+      {% if forloop.index == 1 %}
+      <p style = "font-weight: Normal;">{{ post.description }}</p>
+      {% endif %}
+    </div>
+    <div class="card-right">
+      <img src = "{{ site.baseurl }}/assets/images/{{ post.image }}">
+    </div>
+  </div>
+</a>
+{% endfor %}
