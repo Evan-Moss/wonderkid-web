@@ -23,12 +23,18 @@ title: Notes
       <!--<time class="date" style="font-weight: Normal;">Evan</time><br>-->
       <time style = "font-weight: Normal;" class="date" datetime="{{ post.date | date_to_xmlschema }}"><b>{{ post.author }}</b>, {{ post.date | date: "%B %-d %Y" }}</time>
 
-      {% if forloop.index == 1 %}
+      <!--{% if forloop.index == 1 %}
       <p style = "font-weight: Normal;">{{ post.description }}</p>
-      {% endif %}
+      {% endif %}-->
     </div>
     <div class="card-right">
-      <img src = "{{ site.baseurl }}/assets/images/{{ post.image }}">
+      {% if post.preview-image %}
+        <img src = "{{ site.baseurl }}/assets/img/{{ post.preview-image }}">
+      {% elsif post.category %}
+        <img src = "{{ site.baseurl }}/assets/img/{{ post.category }}.jpg">
+      {% else %}
+        <img src = "{{ site.baseurl }}/assets/img/default.jpg">
+      {% endif %}
     </div>
   </div>
 </a>

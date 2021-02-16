@@ -2,9 +2,23 @@
 layout: default
 ---
 
-<article role="article">
+<article class = 'article-post' role="article">
+  {% if page.header-image %}
+  <img src = "{{ site.baseurl }}/assets/img/{{ page.header-image }}">
+  <h1 class = "article-title" style="margin-top: -2.5rem;"><span>{{ page.title }}</span></h1>
+  {% else %}
   <h1 class = "article-title">{{ page.title }}</h1>
+  {% endif %}
   <time class="date" datetime="{{ page.date | date_to_xmlschema }}" style="font-size: larger;"><b>{{ page.author }}</b>, {{ page.date | date: "%B %-d %Y" }}</time>
-  <p>{{ page.content | remove: '<p>' | remove: '</p>' | append: '<i class="far fa-circle"></i>' }}</p>
+  {{ page.content }}
   <!--{{ content }}-->
 </article>
+<br>
+<p class = 'after-post'>
+{% if page.after-post %}
+{{ page.after-post }}
+{% endif %}
+If you have any feedback about this article please <a href = {{site.baseurl}}/about>get in touch</a>.
+If you are interested in any data driven content presented in this article,
+try the <a href = "https://github.com/{{site.social_media.github}}">Wonderkid Github</a>. If you don't find what you're looking for please
+<a href = {{site.baseurl}}/about>let us know</a> and we will do our best to help. If you liked this article, consider <a href = "https://ko-fi.com/evanmoss">buying me a coffee</a>.

@@ -1,12 +1,15 @@
 site: Wonderkid
-url: https://example.com
+url: https://wonderkid.uk
 title: Wonderkid
-description: Wonderkid
+description: Wonderkid is an online magazine, which tells interesting stories about sport with a focus on data analytics.
 
 social_media:
   twitter:
   instagram: wonderkiduk
   github: wonderkiduk
+  email: hello@wonderkid.uk
+
+google_analytics: G-0GYXY70PKJ
 
 permalink: pretty
 
