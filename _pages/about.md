@@ -24,10 +24,12 @@ If you are interested in how any of the data science aspects of the content work
 
 This website is made using Jekyll and is hosted on Github Pages. The design is by [Evan](https://github.com/Evan-Moss) and is a modified version of the [Ultra](https://github.com/ronv/ultra) template by Github user [ronv](https://github.com/ronv).
 
-## Found a mistake?
+## Found a Mistake?
 
 If there are any mistakes in any articles, _please_ let us know by sending an email to [hello@wonderkid.uk](mailto:{{ site.social_media.email }}). We are always happy to be corrected!
 
-## Donate to wonderkid
+## Donate to Wonderkid
 
 If you're enjoying Wonderkid, consider [buying me a coffee](https://ko-fi.com/evanmoss).
+
+<script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy me a Coffee', '#489dc2', 'T6T43O0TZ');kofiwidget2.draw();</script>

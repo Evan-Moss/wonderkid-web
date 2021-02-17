@@ -1,20 +1,8 @@
-# Ultra - Super fast Jekyll theme
+# Wonderkid
 
-Super fast, minimal one-column portfolio/blog theme built for Jekyll. Theme weighs under <strong>2kb</strong>. Perfect for your personal website, blog and portfolio.
+This is the website repository for [wonderkid.uk](https://wonderkid.uk), an online sports magazine that tells interesting sports stories through data. It is a modified version of the [Ultra](https://github.com/ronv/ultra) template by Github user [ronv](https://github.com/ronv)
 
-### Key features
+If you like the website, or want to support me, consider buying me a Coffee!
 
-- seo optimized
-- weighs under 2kb
-- portfolio/blog pages
-- AAA, 100/100 scores on Lighthouse, Gmetrix and Webpagetest
-- responsive
-- inline css
-- compressed css, html
-- sitemap
-- robots.txt
-- atom feed
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T43O0TZ)
 
-![Screenshot](ultra.png)
-
-# Demo [here](https://ultra-jekyll.netlify.com/)
