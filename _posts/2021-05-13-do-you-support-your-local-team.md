@@ -19,7 +19,7 @@ Firstly, if everyone in the UK had to support their "local" premier league side,
 
 ![UK Local Premier League Sides](/assets/img/premier_league_uk.jpg)*UK's Local Premier League Sides*
 
-For anyone in Northern Ireland, and Ynys Môn, it's got to be Everton for you, and anyone in the **whole** of Scotland has to support Newcastle United. The most widely supported London club would be Tottenham Hotspur, who's influence expands all the way to Norwich and beyond. Southampton do well, covering all of Cornwall and the south west, and Wolves take nearly all of Wales. 
+For anyone in Northern Ireland, and Ynys Môn, it's got to be Everton for you, and anyone in the **whole** of Scotland has to support Newcastle United. The most widely supported London club would be Tottenham Hotspur, whose influence expands all the way to Norwich and beyond. Southampton do well, covering all of Cornwall and the south west, and Wolves take nearly all of Wales. 
 
 ![Manchester Split](/assets/img/manchester_split.jpg)*Manchester Split Down the Middle*
 
