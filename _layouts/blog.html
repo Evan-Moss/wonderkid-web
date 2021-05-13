@@ -21,11 +21,10 @@ title: Notes
         {{ post.title }}
       </h2>
       <!--<time class="date" style="font-weight: Normal;">Evan</time><br>-->
+      
+      {% if forloop.index == 1 %}
       <time style = "font-weight: Normal;" class="date" datetime="{{ post.date | date_to_xmlschema }}"><b>{{ post.author }}</b>, {{ post.date | date: "%B %-d %Y" }}</time>
-
-      <!--{% if forloop.index == 1 %}
-      <p style = "font-weight: Normal;">{{ post.description }}</p>
-      {% endif %}-->
+      {% endif %}
     </div>
     <div class="card-right">
       {% if post.preview-image %}

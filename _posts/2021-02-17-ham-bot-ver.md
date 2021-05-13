@@ -2,7 +2,7 @@
 layout: post
 title: "HAM-BOT-VER: In That Order?"
 description: Exploring the dominance of HAM-BOT-VER in the 2020 formula 1 season with data.
-author: Evan Moss
+author: Evan
 header-image: ham_bot_ver_header.jpg
 preview-image: ham_bot_ver_preview.jpg
 category: f1
